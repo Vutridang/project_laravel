@@ -1,0 +1,59 @@
+version: "3"
+services:
+  # Web
+  nginx:
+    build: ./docker/nginx
+    volumes:
+      - ./mylaravel:/var/www/mylaravel
+      # Logs
+      - ./docker/nginx/log:/var/log/nginx
+    ports:
+      - "80:80"
+    networks:
+      - application
+
+  # PHP
+  php:
+    build: ./docker/php
+    volumes:
+      - ./mylaravel:/var/www/mylaravel
+      # Logs
+      - ./docker/php/log:/var/log/php
+    networks:
+      - application
+
+  # Mongodb
+  #mongodb:
+  #  build: ./docker/mongodb
+  #  environment:
+  #    - MONGO_INITDB_ROOT_USERNAME=
+  #    - MONGO_INITDB_ROOT_PASSWORD=
+  #  volumes:
+  #    - ./docker/mongodb/db:/data/db
+  #    - ./docker/mongodb/mongo-entrypoint:/docker-entrypoint-initdb.d
+  #    - ./docker/mongodb/mongoconfig:/data/configdb
+  #  ports:
+  #    - "27017:27017"
+  #  networks:
+  #    - application
+
+  # Mysql
+  mysql:
+    build: ./docker/mysql
+    #command: --default-authentication-plugin=mysql_native_password  
+    environment:
+      - MYSQL_USER=tungbt
+      - MYSQL_PASSWORD=12345678
+      - MYSQL_ROOT_PASSWORD=12345678
+      - MYSQL_ROOT_HOST=%
+
+    volumes:
+      - ./docker/mysql/data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+    networks:
+      - application
+
+networks: 
+  application:
+    driver: bridge
