@@ -1,0 +1,182 @@
+[27-Jul-2021 08:09:39 UTC] PHP Fatal error:  Non-abstract method Modules\MysqlCore\Repositories\Interfaces\LoanTypeRepositoryInterface::all() must contain body in /var/www/core.tienngay/modules/MysqlCore/Repositories/Interfaces/LoanTypeRepositoryInterface.php on line 21
+[27-Jul-2021 08:10:31 UTC] PHP Fatal error:  Non-abstract method Modules\MysqlCore\Repositories\Interfaces\LoanTypeRepositoryInterface::all() must contain body in /var/www/core.tienngay/modules/MysqlCore/Repositories/Interfaces/LoanTypeRepositoryInterface.php on line 21
+[27-Jul-2021 09:25:12 UTC] PHP Fatal error:  Trait 'Modules\ApiCpanel\Http\Models\SoftDeletes' not found in /var/www/core.tienngay/modules/ApiCpanel/Http/Models/LoanType.php on line 9
+[27-Jul-2021 09:25:23 UTC] PHP Fatal error:  Trait 'Modules\ApiCpanel\Http\Models\SoftDeletes' not found in /var/www/core.tienngay/modules/ApiCpanel/Http/Models/LoanType.php on line 9
+[27-Jul-2021 09:25:24 UTC] PHP Fatal error:  Trait 'Modules\ApiCpanel\Http\Models\SoftDeletes' not found in /var/www/core.tienngay/modules/ApiCpanel/Http/Models/LoanType.php on line 9
+[28-Jul-2021 02:43:59 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:43:59 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:44:32 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:44:32 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:44:56 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:44:56 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:46:10 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:46:10 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:46:21 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:46:21 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:46:27 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:46:27 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:48:19 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:48:19 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:49:26 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[28-Jul-2021 02:49:26 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /var/www/core.tienngay/app/Exceptions/Handler.php:54
+Stack trace:
+#0 /var/www/core.tienngay/app/Exceptions/Handler.php(54): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/var/www/core.t...', 54, Array)
+#1 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#2 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#3 /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#4 [internal functi in /var/www/core.tienngay/app/Exceptions/Handler.php on line 54
+[31-Jul-2021 07:42:17 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 21
+[31-Jul-2021 07:42:17 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[31-Jul-2021 07:42:45 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/core.tienngay/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 21
+[31-Jul-2021 07:42:45 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[02-Aug-2021 13:30:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '$data' (T_VARIABLE), expecting '(' in /var/www/core.tienngay/tests/Feature/FeeLoanFeatureTest.php:73
+Stack trace:
+#0 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Util/FileLoader.php(49): PHPUnit\Util\FileLoader::load('/var/www/core.t...')
+#1 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php(43): PHPUnit\Util\FileLoader::checkAndLoad('/var/www/core.t...')
+#2 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php(146): PHPUnit\Runner\StandardTestSuiteLoader->load('/var/www/core.t...')
+#3 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php(112): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('/var/www/core.t...')
+#4 /var/www/core.tienngay/vendor/phpunit/phpunit/src/TextUI/Command.php(120): PHPUnit\Runner\BaseTestRunner->getTest('/var/www/core.t...', Array)
+#5 /var/www/core.tienngay/vendor/phpunit/phpunit/src/TextUI/Command.php(96): PHPUnit\TextUI\Command->run(Array, true)
+#6 /var/www in /var/www/core.tienngay/vendor/phpunit/phpunit/src/TextUI/Command.php on line 98
+[13-Aug-2021 14:35:56 Asia/Ho_Chi_Minh] PHP Warning:  require(/var/www/core.tienngay/vendor/composer/../nwidart/laravel-modules/src/helpers.php): failed to open stream: No such file or directory in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[13-Aug-2021 14:35:56 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required '/var/www/core.tienngay/vendor/composer/../nwidart/laravel-modules/src/helpers.php' (include_path='.:/usr/local/lib/php') in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[13-Aug-2021 14:35:58 Asia/Ho_Chi_Minh] PHP Warning:  require(/var/www/core.tienngay/vendor/composer/../nwidart/laravel-modules/src/helpers.php): failed to open stream: No such file or directory in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[13-Aug-2021 14:35:58 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required '/var/www/core.tienngay/vendor/composer/../nwidart/laravel-modules/src/helpers.php' (include_path='.:/usr/local/lib/php') in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[13-Aug-2021 14:35:58 Asia/Ho_Chi_Minh] PHP Warning:  require(/var/www/core.tienngay/vendor/composer/../nwidart/laravel-modules/src/helpers.php): failed to open stream: No such file or directory in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[13-Aug-2021 14:35:58 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required '/var/www/core.tienngay/vendor/composer/../nwidart/laravel-modules/src/helpers.php' (include_path='.:/usr/local/lib/php') in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[16-Aug-2021 09:15:57 Asia/Ho_Chi_Minh] PHP Warning:  require(/var/www/core.tienngay/vendor/composer/../symfony/polyfill-php80/bootstrap.php): failed to open stream: No such file or directory in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[16-Aug-2021 09:15:57 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required '/var/www/core.tienngay/vendor/composer/../symfony/polyfill-php80/bootstrap.php' (include_path='.:/usr/local/lib/php') in /var/www/core.tienngay/vendor/composer/autoload_real.php on line 71
+[23-Aug-2021 10:12:50 UTC] PHP Fatal error:  Cannot declare class CreatePropertyTypesTable, because the name is already in use in /var/www/core.tienngay/database/migrations/2021_07_28_025410_create_property_types_table.php on line 34
+[23-Aug-2021 10:15:17 UTC] PHP Fatal error:  Cannot declare class CreatePropertyTypesTable, because the name is already in use in /var/www/core.tienngay/database/migrations/2021_07_28_025410_create_property_types_table.php on line 34
+[23-Aug-2021 10:21:45 UTC] PHP Fatal error:  Cannot declare class CreatePropertyTypesTable, because the name is already in use in /var/www/core.tienngay/database/migrations/2021_07_28_025410_create_property_types_table.php on line 34
+[24-Aug-2021 07:26:32 UTC] PHP Fatal error:  Cannot redefine class constant Modules\MysqlCore\Entities\MoMoApp::BALANCE_PREV_TERM in /var/www/core.tienngay/modules/MysqlCore/Entities/MoMoApp.php on line 56
+[28-Aug-2021 13:55:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected ''contract_transaction_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /var/www/core.tienngay/modules/PaymentGateway/Tests/Feature/MoMoAppTest.php:74
+Stack trace:
+#0 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Util/FileLoader 3.php(49): PHPUnit\Util\FileLoader::load('/var/www/core.t...')
+#1 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader 3.php(43): PHPUnit\Util\FileLoader::checkAndLoad('/var/www/core.t...')
+#2 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Runner/BaseTestRunner 3.php(146): PHPUnit\Runner\StandardTestSuiteLoader->load('/var/www/core.t...')
+#3 /var/www/core.tienngay/vendor/phpunit/phpunit/src/Runner/BaseTestRunner 3.php(112): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('/var/www/core.t...')
+#4 /var/www/core.tienngay/vendor/phpunit/phpunit/src/TextUI/Command 3.php(120): PHPUnit\Runner\BaseTestRunner->getTest('/var/www/core.t...', Array)
+#5 /var/www/core.tienngay/vendor/phpunit/phpunit/src/TextUI/Command in /var/www/core.tienngay/vendor/phpunit/phpunit/src/TextUI/Command 3.php on line 98
+[14-Sep-2021 16:16:26 UTC] PHP Fatal error:  Constant expression contains invalid operations in /var/www/core.tienngay/modules/MysqlCore/Entities/Reconciliation.php on line 64
+[29-Oct-2021 07:36:07 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:37:14 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:42:50 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:43:10 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:43:17 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:43:43 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:58:20 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:59:44 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 07:59:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 08:00:30 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[29-Oct-2021 08:00:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::index() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 20
+[01-Nov-2021 20:13:14 UTC] PHP Fatal error:  Trait 'App\SoftDeletes' not found in /var/www/mylaravel/app/Product.php on line 9
+[01-Nov-2021 22:10:03 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 69
+[01-Nov-2021 22:10:31 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 69
+[01-Nov-2021 22:11:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 69
+[01-Nov-2021 22:13:19 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 69
+[01-Nov-2021 22:14:07 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 69
+[01-Nov-2021 22:14:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 69
+[01-Nov-2021 22:17:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 69
+[01-Nov-2021 22:20:25 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 70
+[01-Nov-2021 22:20:55 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 70
+[01-Nov-2021 22:24:26 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::show() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 80
+[02-Nov-2021 11:23:44 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ProductController::store() in /var/www/mylaravel/app/Http/Controllers/ProductController.php on line 53
